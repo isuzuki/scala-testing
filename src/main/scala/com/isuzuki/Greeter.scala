@@ -1,5 +1,6 @@
 package com.isuzuki
 
-object Greeter {
+object Greeter extends Greeter
+class Greeter {
   def hello(): String = "Hello!"
 }
